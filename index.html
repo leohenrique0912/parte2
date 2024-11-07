@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comidas Internacionais</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header class="cabeçalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__botao">
+      <label for="menu">
+        <span class="cabeçalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Italiano</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Chinês</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Mexicano</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Indiano</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Japonês</a></li>
+      </ul>
+      <img src="img/Logo.png" alt="Logo de Comidas Internacionais" class="container__imagem">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/favorito.png" alt="Favoritar prato" width="40" height="auto"></a>
+      <a href="#"><img src="img/carrinho.png" alt="Carrinho de compras" width="40" height="auto">
+      </a>
+      <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" width="60" height="auto"></a>
+    </div>
+  </header>
+
+  <section class="banner">
+    <h2 class="banner__titulo">Descubra novos sabores!</h2>
+    <p class="banner__texto">Encontre pratos deliciosos de diferentes países!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual prato você deseja experimentar?">
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Novos Pratos</h2>
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/italia.png" </div>Prato de macarrão italiano</div>
+        <div class="swiper-slide"><img src="img/japao.png" </div>Prato de sushi japonês</div>
+        <div class="swiper-slide"><img src="img/mexico.png" </div>Prato de tacos mexicanos</div>
+        <div class="swiper-slide"><img src="img/india.png" </div>Frango Tikka Masala indiano</div>
+        <div class="swiper-slide"><img src="img/china.png" </div>Prato de Dim Sum chinês</div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <h3 class="descrição__titulo">Experimente também...</h3>
+          <h2 class="descrição__titulo-livro">Pizza Margherita</h2>
+          <p class="descrição__texto">Uma clássica pizza italiana feita com molho de tomate fresco, mozzarella e manjericão.</p>
+        </div>
+        <img src="img/pizza.png" width="300" height="auto">
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item"><img src="img/favorito.png" alt="Favoritar prato"  width="40" height="auto">
+          </a>
+          <li class="botões__item"><img src="img/carrinho.png" alt="Carrinho de compras" width="40" height="auto">
+          </a>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">Pratos Populares</h2>
+    <div class="swiper">
+      <div class="swiper-pagination"></div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="img/feijoada.png" </div>Feijoada brasileira</div>
+        <div class="swiper-slide"><img src="img/curry.png" </div>Curry indiano</div>
+        <div class="swiper-slide"><img src="img/pato.png"  </div>Pato laqueado à Pequim</div>
+        <div class="swiper-slide"><img src="img/mexicana.png"  </div>Quesadilla mexicana</div>
+        <div class="swiper-slide"><img src="img/tempura.png"  </div>Tempura japonês</div>
+        <div class="swiper-slide"><img src="img/hungaro.png"  </div>Goulash húngaro</div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+
+    <div class="card">
+      <div class="card__descrição">
+        <div class="descrição">
+          <img src="img/estrelas.png" alt="Avaliação 5 estrelas" width="130" height="auto">
+        </a>
+          <h3 class="descrição__titulo">Chef do Mês</h3>
+          <h2 class="descrição__titulo-livro"> Alex Atala</h2>
+          <p class="descrição__texto">Chef internacional, Alex Atala, tem duas estrelas Michelin, sendo o primeiro brasileiro a alcançar essa honraria. </p>
+        </div>
+        <img src="img/Chef.png" width="250" height="auto">
+      </a> 
+      </div>
+      <div class="card__botões">
+        <ul class="botões">
+          <li class="botões__item"><img src="img/favorito.png" alt="Favoritar prato" width="40" height="auto">
+          </a>
+          <li class="botões__item"><img src="img/carrinho.png" alt="Adicionar no carrinho" width="40" height="auto">
+          </a>
+        </ul>
+        <a href="#" class="botões__ancora">Saiba mais</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="tópicos">
+    <h2 class="tópicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+    <ul class="tópicos__lista">
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Receitas de Verão</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Culinária Vegana</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Pratos Rápidos</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Sobremesas</a></li>
+      <li class="tópicos__item"><a href="#" class="tópicos__link">Culinária Internacional</a></li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2 class="contato__titulo">Fique por dentro das novidades!</h2>
+    <p class="contato__texto">Atualizações de receitas, novos pratos, promoções e outros.</p>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email" />
+  </section>
+
+  <hr />
+
+  <footer class="rodapé">
+    <h2 class="rodapé__titulo">Grupo Comidas Internacionais</h2>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper(".swiper", {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,137 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+    border: 0; /* Remove border */
+    font-size: 100%; /* Reset font size */
+    font: inherit; /* Inherit font from parent */
+    vertical-align: baseline; /* Align items */
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block; /* Set display to block for HTML5 elements */
+}
+
+body {
+    line-height: 1; /* Set line height */
+}
+
+/* Lista sem estilo, ideal para ingredientes ou pratos */
+ol,
+ul {
+    list-style: none; /* Remove bullet points */
+}
+
+blockquote,
+q {
+    quotes: none; /* Remove quotes */
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: ''; /* Remove default content */
+    content: none; /* Remove default content */
+}
+
+/* Estilos para tabelas, perfeito para informações nutricionais */
+table {
+    border-collapse: collapse; /* Remove espaçamento entre bordas */
+    border-spacing: 0; /* Remove espaçamento */
+}

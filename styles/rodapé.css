@@ -1,0 +1,21 @@
+hr {
+    margin: 0; /* Remove a margem do elemento hr */
+}
+
+.rodapé {
+    background-color: var(--branco); /* Fundo branco para o rodapé */
+    padding: 1em; /* Espaçamento em volta do conteúdo do rodapé */
+    text-align: center; /* Centraliza o texto no rodapé */
+}
+
+.rodapé__titulo {
+    color: var(--laranja); /* Cor laranja para o título do rodapé */
+    font-weight: 700; /* Negrito para o título do rodapé */
+}
+
+@media screen and (min-width: 1728px) {
+    .lista-rodapé {
+        border-left: 1px solid var(--cinza);
+        padding-left: 1em
+    }
+}

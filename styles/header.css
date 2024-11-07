@@ -1,0 +1,70 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px; /* Largura do ícone do menu */
+    height: 24px; /* Altura do ícone do menu */
+    display: inline-block; /* Exibição em linha */
+    background-image: url("../img/Menu.svg"); /* Ícone do menu */
+    background-repeat: no-repeat; /* Não repetir imagem */
+    background-position: center; /* Centraliza a imagem */
+}
+
+.cabeçalho {
+    background-color: var(--branco); /* Fundo branco para o cabeçalho */
+    display: flex; /* Exibe em flexbox para alinhar itens */
+    justify-content: space-between; /* Espaçamento entre itens */
+    align-items: center; /* Alinha itens verticalmente no centro */
+    position: relative; /* Para posicionamento do menu */
+}
+
+.container {
+    display: flex; /* Exibe os itens do container em flexbox */
+    align-items: center; /* Alinha os itens do container verticalmente */
+}
+
+.container__imagem {
+    padding: 1em; /* Espaçamento em volta da imagem */
+}
+
+.lista-menu {
+    display: none; /* Inicialmente oculta o menu */
+    position: absolute; /* Posiciona o menu em relação ao cabeçalho */
+    top: 100%; /* Posiciona o menu logo abaixo do cabeçalho */
+    width: 60vw; /* Largura do menu em relação à viewport */
+}
+
+.container__botao:checked ~ .lista-menu {
+    display: block; /* Exibe o menu quando o botão é clicado */
+}
+
+.lista-menu__titulo,
+.lista-menu__item {
+    padding: 1em; /* Espaçamento em volta dos itens do menu */
+    background-color: var(--branco); /* Fundo branco para os itens do menu */
+}
+
+.lista-menu__titulo {
+    color: var(--laranja); /* Cor laranja para o título do menu */
+    font-weight: 700; /* Negrito para o título do menu */
+}
+
+.lista-menu__link {
+    background: var(--azul-degrade); /* Fundo degradê para os links */
+    -webkit-background-clip: text; /* Recorta o fundo para o texto */
+    -webkit-text-fill-color: transparent; /* Preenche o texto com o fundo */
+    background-clip: text; /* Compatibilidade com outros navegadores */
+    text-transform: uppercase; /* Transforma texto em letras maiúsculas */
+}
+
+.container__botao {
+    display: none; /* Oculta o botão do menu, mostrado apenas em telas menores */
+}
+
+@media screen and (min-width: 1024px) {
+    /* Estilos para tablets */
+  }
+  @media screen and (min-width: 1728px) {
+    /* Código omitido */
+  
+    .container__texto {
+      display: block;
+    }
+  }

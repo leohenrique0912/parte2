@@ -1,0 +1,77 @@
+.carrossel__titulo {
+    color: var(--laranja); /* Cor laranja para o título, representando energia e sabor */
+    background-color: var(--branco); /* Fundo branco para contraste */
+    text-align: center; /* Centraliza o título */
+    text-transform: uppercase; /* Transforma o texto em letras maiúsculas */
+    font-size: 24px; /* Aumenta o tamanho da fonte para dar mais destaque ao título */
+    font-weight: 700; /* Negrito para maior ênfase */
+    padding: 1em 0 0.5em 0; /* Espaçamento acima e abaixo do título */
+}
+
+.swiper-slide img {
+    width: 100%; /* Largura total da imagem para adaptabilidade */
+    border-radius: 15px; /* Bordas arredondadas nas imagens */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none; /* Botões de navegação ocultos para um visual limpo */
+}
+
+.swiper-pagination {
+    position: initial; /* Posição padrão para a paginação */
+    margin: .5em 0; /* Margem acima e abaixo da paginação */
+}
+
+.card {
+    background: var(--branco); /* Fundo branco para destaque */
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); /* Sombra suave para profundidade */
+    border-radius: 20px; /* Bordas arredondadas no cartão */
+    margin: 1em; /* Margem externa ao cartão */
+    padding: 1em; /* Espaçamento interno no cartão */
+}
+
+.card__descrição {
+    display: flex; /* Flexbox para alinhar os elementos */
+    justify-content: space-between; /* Distribui espaço entre os itens */
+    margin-bottom: 0.5em; /* Margem abaixo da descrição */
+}
+
+.card__botões {
+    display: flex; /* Flexbox para os botões */
+    justify-content: space-between; /* Distribui espaço entre os botões */
+}
+
+.botões {
+    display: flex; /* Flexbox para a lista de botões */
+}
+
+.descrição__titulo {
+    color: var(--laranja); /* Cor laranja para os títulos das descrições */
+    font-weight: 700; /*Negrito para maior ênfase */
+}
+
+.descrição__titulo-livro {
+    color: var(--azul); /* Cor azul para títulos de pratos */
+    font-size: 20px; /* Aumenta o tamanho da fonte do título do prato */
+    font-weight: 700; /* Negrito para ênfase */
+    margin: 0.5em 0; /* Margem acima e abaixo do título do prato */
+}
+
+.descrição__texto {
+    font-size: 14px; /* Tamanho da fonte para descrição do prato */
+    color: var(--azul); /* Cor azul para o texto descritivo */
+}
+
+.botões__ancora {
+    background-color: var(--laranja); /* Fundo laranja para o botão */
+    padding: 1.9em 0.2em; /* Espaçamento interno do botão */
+    color: var(--branco); /* Texto branco no botão */
+    font-weight: 700; /* Negrito para o texto do botão */
+    text-decoration: none; /* Remove o sublinhado do texto */
+    border-radius: 20px; /* Bordas arredondadas no botão */
+}
+
+.botões__item {
+    margin: 0 0.9em; /* Margem entre os itens de botão */
+}

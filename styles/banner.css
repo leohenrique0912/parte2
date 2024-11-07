@@ -1,0 +1,47 @@
+.banner {
+    background: var(--azul-degrade); /* Cor de fundo com gradiente, representando um céu tropical */
+    color: var(--branco); /* Texto branco para contraste */
+    text-align: center; /* Centraliza o texto */
+    padding: 2.5em 2em; /* Espaçamento interno do banner */
+}
+
+.banner__titulo {
+    font-size: 24px; /* Aumenta o tamanho da fonte para dar mais destaque ao título */
+    font-weight: 700; /* Negrito para ênfase */
+}
+
+.banner__texto {
+    font-weight: 500; /* Peso da fonte médio */
+    margin: 1em 0; /* Margem acima e abaixo do texto */
+}
+
+.banner__pesquisa {
+    background-color: transparent; /* Fundo transparente para um visual leve */
+    border: 1px solid var(--branco); /* Borda branca ao redor da barra de pesquisa */
+    color: var(--branco); /* Texto branco */
+    border-radius: 24px; /* Bordas arredondadas */
+    padding: 2em; /* Espaçamento interno da barra de pesquisa */
+    width: 110%; /* Largura total do contêiner */
+}
+
+.banner__pesquisa::placeholder {
+    font-family: var(--fonte-principal); /* Fonte principal definida no :root */
+    font-size: 14px; /* Tamanho da fonte para o texto de espaço reservado */
+    font-weight: 400; /* Peso leve para o texto de espaço reservado */
+    text-align: center; /* Centraliza o texto de espaço reservado */
+    color: var(--branco); /* Cor do texto de espaço reservado */
+    background: url("../img/Vector.svg") no-repeat; /* Ícone de lupa como fundo */
+    background-position: 0.1em; /* Posição do ícone dentro da barra de pesquisa */
+}
+
+@media screen and (min-width: 1728px) {
+    .banner_pesquisa {
+        width: 35%;
+    }
+    .banner_pesquisa:: placeholder {
+        background-position: 12em;
+    }
+    .banner {
+        padding: 5em 0;
+    }
+}

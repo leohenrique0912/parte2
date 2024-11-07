@@ -1,0 +1,48 @@
+.contato {
+    background-color: var(--branco); /* Fundo branco para destacar o conteúdo */
+    padding: 1em; /* Espaçamento interno */
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade); /* Gradiente azul para o texto */
+    -webkit-background-clip: text; /* Recorta o fundo para o texto */
+    -webkit-text-fill-color: transparent; /* Preenche o texto com o fundo */
+    background-clip: text; /* Compatibilidade com outros navegadores */
+}
+
+.contato__titulo {
+    font-size: 24px; /* Aumenta o tamanho do título para destaque */
+    font-weight: 700; /* Negrito para o título */
+    text-align: center; /* Centraliza o título */
+    margin-bottom: 0.5em; /* Margem abaixo do título */
+}
+
+.contato__texto {
+    font-weight: 300; /* Peso da fonte leve para o texto */
+    margin: 1em 0; /* Margem acima e abaixo do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.contato__email {
+    padding: 1em; /* Espaçamento interno no campo de email */
+    border: 1px solid var(--azul); /* Borda azul ao redor do campo */
+    border-radius: 24px; /* Bordas arredondadas para um visual amigável */
+    width: 90%; /* Largura do campo de email */
+    color: var(--azul); /* Cor do texto no campo */
+    display: block; /* Faz o campo ocupar toda a largura disponível */
+    margin: 0 auto; /* Centraliza o campo */
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal); /* Fonte principal do placeholder */
+    color: var(--azul); /* Cor do texto do placeholder */
+    background: url("../img/Email.svg") no-repeat 5%; /* Ícone de email à esquerda do texto */
+    padding-left: 2em; /* Espaçamento interno à esquerda do texto do placeholder */
+}
+
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 2vw;
+    }
+}
